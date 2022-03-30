@@ -1,0 +1,36 @@
+@mixin init {
+  div.works_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    &>a {
+      text-decoration: none;
+      color: black;
+      
+      div.work_card {
+        width: calc(24vw - 10px);
+        margin: 3px;
+        padding: 3px;
+        border: 1px solid black;
+        border-radius: 5px;
+  
+        &>div{
+          &.thumb_container {
+            width: 100%;
+            padding-top: 50%;
+            position: relative;
+  
+            img {
+              position: absolute;
+              width: 100%;
+              top: 0px;
+              left: 0px;
+              border-radius: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,2 +1,4 @@
 desktop.ini
 *.tmp.*
+assets/*
+!assets/works.json

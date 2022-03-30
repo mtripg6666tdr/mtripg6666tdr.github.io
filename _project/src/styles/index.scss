@@ -1,0 +1,44 @@
+@use "./works" as works;
+
+body {
+  margin: 0px;
+
+  &, * {
+    box-sizing: border-box;
+  }
+
+  div#app {
+    height: 100vh;
+    width: 100%;
+    overflow-y: auto;
+
+    div.base_container {
+      width: 80%;
+      margin: 0px auto;
+
+      &>h1 {
+        font-size: 1.2rem;
+      }
+  
+      &>p {
+        span {
+          &.strike {
+            text-decoration: line-through;
+            font-size: 0.7rem;
+          }
+        }
+      }
+
+      div.works_box {
+        @include works.init();
+      }
+    }
+
+    &>footer{
+      text-align: center;
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+    }
+  }
+}
