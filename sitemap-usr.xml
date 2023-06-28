@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://web.usamyon.moe/Kaomoji_proj/index.html</loc>
-    </url>
-    <url>
         <loc>https://web.usamyon.moe/twi-snow-stamp/</loc>
     </url>
     <url>
@@ -13,6 +10,6 @@
         <loc>https://web.usamyon.moe/Kaomoji_proj/</loc>
     </url>
     <url>
-        <loc>https://web.usamyon.moe/twi-snow-stamp/</loc>
-    </url>
+        <loc>https://web.usamyon.moe/discord-analyzer/</loc>
+    </url
 </urlset>
